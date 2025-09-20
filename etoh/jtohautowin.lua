@@ -91,7 +91,10 @@ return function(tower: string, time: number)
                 end
             end
             game.Players.LocalPlayer.Character:SetPrimaryPartCFrame(winpad.CFrame)
+            task.wait()
+            game.Players.LocalPlayer.Character:WaitForChild("Torso").Anchored = true
             task.wait(1)
+            game.Players.LocalPlayer.Character:WaitForChild("Torso").Anchored = false
             game.Players.LocalPlayer.Character:SetPrimaryPartCFrame(workspace:FindFirstChild("RestartBrick", true).CFrame)
             game.Players.LocalPlayer.CharacterAdded:Wait()
             task.wait(0.5)
