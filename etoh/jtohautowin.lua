@@ -14,6 +14,7 @@ local towersToAvoid = {
     'ToWWW',
     'ToEMP',
     'TT',
+    'ToDC'
     'ToBT',
     'ToC',
     'ToCA',
