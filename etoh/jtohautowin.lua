@@ -17,7 +17,6 @@ local towersToAvoid = {
     'ToBT',
     'ToC',
     'ToCA',
-    'ToDC',
     'ToDT',
     'ToEH',
     'ToFaCT',
